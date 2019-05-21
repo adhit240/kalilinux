@@ -76,4 +76,4 @@ echo "fixing shebang of $bin"
 termux-fix-shebang $bin
 chmod +x $bin
 rm $tarball
-echo "Sekarang Anda Bisa Menjalankan Kali Dengan Command ${bin}"
+echo -e "\e[1m\e[32mSekarang Anda Bisa Menjalankan Kali Dengan Command (${bin})\e[0m"
